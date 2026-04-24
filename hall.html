@@ -121,7 +121,7 @@
             </div>
           </div>
           <div class="button-group">
-            <button class="button-open-brief">
+            <button class="button-open-brief" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <img src="https://app.codigma.io/api/uploads/2026/04/20/svg-602021e8-9d17-4aba-9584-929e920e2e64.svg"
                 alt="Icon" />
               <span>Открыть бриф</span>
@@ -569,7 +569,157 @@
     </div>
   </footer>
 
-
+<!-- Модальное окно -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Заголовок модального окна</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+         
+        <div class="modal-card">
+          <div class="absolute-background"></div>
+          <div class="header">
+            <div class="header-left">
+              <div class="icon-wrapper">
+                <img
+                  src="https://app.codigma.io/api/uploads/2026/04/15/svg-d369e1dc-c690-4743-96ec-2b0fe6fa5cd9.svg"
+                  alt="icon"
+                  class="icon"
+                />
+              </div>
+              <div class="title-wrapper">
+                <p class="subtitle">Бриф спринта</p>
+                <h2 class="title">#2 Basalt Arena (frontend)</h2>
+              </div>
+            </div>
+            <div class="header-right">
+              <img
+                src="https://app.codigma.io/api/uploads/2026/04/15/svg-f67960ef-f7e5-4a06-9c3d-97341938a7c0.svg"
+                alt="more options"
+                class="icon"
+              />
+            </div>
+          </div>
+          <div class="content">
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag"
+                ><img
+                  src="https://app.codigma.io/api/uploads/2026/04/15/svg-877a4584-4551-48ba-b209-e72a157a985a.svg"
+                  alt="status icon"
+                  class="status-icon"
+                />Завершён 14 мая 2026</span
+              >
+            </div>
+            <div class="description">
+              <p>
+                «Перед вами — макет той самой платформы, на которой вы сейчас
+                находитесь. Ваша задача — сверстать его. Да, это рекурсия.»
+              </p>
+            </div>
+            <div class="instructions">
+              <p>
+                <span>Реализуйте все три страницы по макету: </span
+                ><span class="highlight">index.html</span
+                ><span> (активный спринт), </span
+                ><span class="highlight">hall.html</span><span> (зал славы) и </span
+                ><span class="highlight">profile.html</span
+                ><span>
+                  (профиль). Стек — любой: чистый HTML/CSS, React, Vue, Svelte,
+                  Tailwind, Bootstrap, генерация через ИИ — что угодно.</span
+                >
+              </p>
+            </div>
+            <div class="criteria">
+              <h4 class="criteria-title">
+                <img
+                  src="https://app.codigma.io/api/uploads/2026/04/15/svg-30636d23-dd86-4e77-b1c5-ed850163cfde.svg"
+                  alt="criteria icon"
+                  class="criteria-icon"
+                />Критерии приёмки
+              </h4>
+              <ul>
+                <li>
+                  <img
+                    src="https://app.codigma.io/api/uploads/2026/04/15/svg-dc222a8f-68a2-47b0-aed8-b6ad23bf8892.svg"
+                    alt="mark"
+                    class="mark"
+                  />Главное — <span class="highlight">соответствие макету</span>.
+                  Чем точнее, тем выше оценка наставника.
+                </li>
+                <li>
+                  <img
+                    src="https://app.codigma.io/api/uploads/2026/04/15/svg-caf6d4ca-58ba-4445-a83f-78a59431f7b8.svg"
+                    alt="mark"
+                    class="mark"
+                  />Весь независимый от бэка JS-функционал должен
+                  <span class="highlight">работать</span>: модалки, таймер, табы,
+                  формы и т.д.
+                </li>
+                <li>
+                  <img
+                    src="https://app.codigma.io/api/uploads/2026/04/15/svg-3998f2a3-ddee-41f4-a1e9-7c3a43a5a47c.svg"
+                    alt="mark"
+                    class="mark"
+                  />Все запросы к серверу — через
+                  <span class="highlight">мок-API</span> (заглушки). На основе
+                  победившего мок-API в следующем спринте будем проектировать
+                  настоящий бэкенд.
+                </li>
+              </ul>
+            </div>
+            <div class="links">
+              <h4>Полезные ссылки</h4>
+              <div class="link-item">
+                <img
+                  src="https://app.codigma.io/api/uploads/2026/04/15/svg-cac883f5-9447-4400-bdc3-ba92805179da.svg"
+                  alt="link icon"
+                  class="link-icon"
+                /><span>Figma-макет</span>
+              </div>
+              <div class="link-item">
+                <img
+                  src="https://app.codigma.io/api/uploads/2026/04/15/svg-f834d620-85a6-4e5e-94a3-b7c53369ec18.svg"
+                  alt="link icon"
+                  class="link-icon"
+                /><span>Гайд по мок-API</span>
+              </div>
+              <div class="link-item">
+                <img
+                  src="https://app.codigma.io/api/uploads/2026/04/15/svg-5c275ba6-2b6c-4001-b29e-3408e28730dc.svg"
+                  alt="link icon"
+                  class="link-icon"
+                /><span>Чат участников</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="footer-left">
+              <span class="back-link">← Назад в зал славы</span>
+            </div>
+            <div class="footer-right">
+              <div class="button-shadow"></div>
+              <img
+                src="https://app.codigma.io/api/uploads/2026/04/15/svg-276bb7b6-0248-4594-9de8-7744f1494f55.svg"
+                alt="button icon"
+                class="button-icon"
+              /><span class="button-text">Перейти к спринту</span>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Сохранить изменения</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
