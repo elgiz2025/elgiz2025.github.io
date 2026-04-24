@@ -1,0 +1,33 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g filter="url(#filter0_dd_2021_483)">
+        <mask id="path-1-inside-1_2021_483" fill="white">
+        <path d="M12 10C12 5.58172 15.5817 2 20 2H36C40.4183 2 44 5.58172 44 10V26C44 30.4183 40.4183 34 36 34H20C15.5817 34 12 30.4183 12 26V10Z"></path>
+        </mask>
+        <path d="M12 10C12 5.58172 15.5817 2 20 2H36C40.4183 2 44 5.58172 44 10V26C44 30.4183 40.4183 34 36 34H20C15.5817 34 12 30.4183 12 26V10Z" fill="url(#pattern0_2021_483)" shape-rendering="crispEdges"></path>
+        <path d="M20 2V3H36V2V1H20V2ZM44 10H43V26H44H45V10H44ZM36 34V33H20V34V35H36V34ZM12 26H13V10H12H11V26H12ZM20 34V33C16.134 33 13 29.866 13 26H12H11C11 30.9706 15.0294 35 20 35V34ZM44 26H43C43 29.866 39.866 33 36 33V34V35C40.9706 35 45 30.9706 45 26H44ZM36 2V3C39.866 3 43 6.13401 43 10H44H45C45 5.02944 40.9706 1 36 1V2ZM20 2V1C15.0294 1 11 5.02944 11 10H12H13C13 6.13401 16.134 3 20 3V2Z" fill="var(--color-cyan-50-30-, #0DCCF2)" fill-opacity="0.3" mask="url(#path-1-inside-1_2021_483)"></path>
+        </g>
+        <defs>
+        <filter id="filter0_dd_2021_483" x="0" y="0" width="56" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+        <feMorphology radius="4" operator="erode" in="SourceAlpha" result="effect1_dropShadow_2021_483"></feMorphology>
+        <feOffset dy="4"></feOffset>
+        <feGaussianBlur stdDeviation="3"></feGaussianBlur>
+        <feComposite in2="hardAlpha" operator="out"></feComposite>
+        <feColorMatrix type="matrix" values="0 0 0 0 0.0509804 0 0 0 0 0.8 0 0 0 0 0.94902 0 0 0 0.2 0"></feColorMatrix>
+        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2021_483"></feBlend>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+        <feMorphology radius="3" operator="erode" in="SourceAlpha" result="effect2_dropShadow_2021_483"></feMorphology>
+        <feOffset dy="10"></feOffset>
+        <feGaussianBlur stdDeviation="7.5"></feGaussianBlur>
+        <feComposite in2="hardAlpha" operator="out"></feComposite>
+        <feColorMatrix type="matrix" values="0 0 0 0 0.0509804 0 0 0 0 0.8 0 0 0 0 0.94902 0 0 0 0.2 0"></feColorMatrix>
+        <feBlend mode="normal" in2="effect1_dropShadow_2021_483" result="effect2_dropShadow_2021_483"></feBlend>
+        <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_2021_483" result="shape"></feBlend>
+        </filter>
+        <pattern id="pattern0_2021_483" patternContentUnits="objectBoundingBox" width="1" height="1">
+        <use xlink:href="#image0_2021_483" transform="scale(0.0125)"></use>
+        </pattern>
+        <image id="image0_2021_483" width="80" height="80" preserveAspectRatio="none" xlink:href="https://app.codigma.io/api/uploads/2026/04/16/asset-6d089f41-cf5c-446d-b361-889190347356.png"></image>
+        </defs>
+        </svg>
